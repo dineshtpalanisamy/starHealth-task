@@ -1,0 +1,216 @@
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+		monospace;
+}
+/* General body styling */
+body {
+	/* Remove unnecessary margin, padding */
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+/* Default Scroll bar removed */
+body::-webkit-scrollbar {
+	display: none;
+}
+
+/* Header styling */
+.header {
+	width: 100%;
+	height: 87.79px;
+	display: flex;
+	justify-content: space-between; /* Ensures space between the logo-nav-container and get-quote-container */
+	align-items: center;
+	background: transparent;
+}
+
+/* Logo and nav container */
+.logo-nav-container {
+	display: flex;
+	align-items: center; /* Align logo and nav vertically */
+	justify-content: space-between;
+	gap: 40px;
+}
+
+/* Other styles remain the same */
+
+/* Logo styling */
+.logo {
+	display: flex;
+	align-items: center;
+}
+
+.logo img {
+	width: 124px; /* Fixed width */
+	height: 87px; /* Maintain aspect ratio */
+	display: block; /* Prevent inline spacing issues */
+	object-fit: contain;
+}
+
+/* Navigation links styling */
+.nav-links {
+	display: flex; /* Horizontal alignment for nav links */
+	list-style: none; /* Removes default list styling */
+	margin: 0; /* Removes margin */
+	padding: 0; /* Removes padding */
+	gap: 40px; /* Space between each link */
+}
+
+.nav-links li {
+	font-size: 15px; /* Font size */
+	font-weight: 500; /* Font weight */
+	line-height: 18px; /* Line height */
+	text-align: left; /* Text alignment */
+	text-underline-position: from-font; /* Position of the underline */
+	text-decoration-skip-ink: none; /* Ensures underline does not skip over descenders */
+	color: #272724; /* Text color */
+	cursor: pointer; /* Pointer cursor on hover */
+	position: relative; /* For positioning arrow if needed */
+}
+.nav-links li::after {
+	position: absolute;
+	top: -2px;
+	content: "\2304";
+	font-weight: bolder;
+	color: black;
+	display: inline-block;
+	margin-left: 2px;
+}
+
+/* Get purchase button container */
+.get-purchase-container {
+	display: flex;
+	align-items: center; /* Vertically center the button */
+}
+
+.get-purchase {
+	width: auto;
+	color: #707070;
+	background-color: white;
+	padding: 5px 30px; /* Proper padding */
+	border-radius: 20px; /* Rounded corners */
+	font-size: 20px;
+	font-family: "Segoe UI";
+	font-weight: 400;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	border: 2px solid transparent;
+	background-clip: padding-box;
+	position: relative;
+}
+
+/* Apply gradient border using pseudo-elements */
+.get-purchase::before {
+	content: "";
+	position: absolute;
+	inset: 0;
+	border-radius: 20px; /* Ensures rounded corners */
+	padding: 2px; /* Border thickness */
+	background: linear-gradient(to right, #e7bef3, #013adf);
+
+	/* Standard and vendor-prefixed masking for better compatibility */
+	-webkit-mask: linear-gradient(white, white) content-box,
+		linear-gradient(white, white);
+	-webkit-mask-composite: xor;
+	mask: linear-gradient(white, white) content-box, linear-gradient(white, white);
+	mask-composite: exclude;
+}
+
+.get-purchase:hover {
+	transform: scale(1.05);
+}
+.nav-links li:hover {
+	transform: scale(1.1);
+	font-weight: 500;
+}
+.menu-icon {
+	display: none;
+	cursor: pointer;
+}
+/* RESPONSIVENESS */
+
+/* Below 768px */
+@media (max-width: 767px) {
+	.menu-icon {
+		display: block;
+	}
+	.nav-links {
+		z-index: 1;
+		position: absolute;
+		top: 87.79px;
+		right: 0;
+		width: auto; /* Adjust width as needed */
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+		padding: 45px 40px;
+		background-color: #131315;
+		border-top-left-radius: 8px;
+		border-bottom-left-radius: 8px;
+		box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+		transform-origin: right; /* Ensures scaling happens from right */
+		transform: scaleX(0); /* Initially hidden */
+		visibility: hidden;
+		opacity: 0;
+		transition: transform 0.4s ease-in-out, opacity 0.3s ease-in-out,
+			border-radius 0.3s ease-in-out;
+	}
+
+	/* When menu is open */
+	.nav-links.open,
+	.nav-links.close {
+		transform: scaleX(1); /* Expands from right to left */
+		visibility: visible;
+		opacity: 1;
+	}
+	.nav-links.close {
+		transform: scaleX(0); /* Expands from left to right */
+	}
+
+	.nav-links li.active {
+		color: #ffffff; /* Change text color to red */
+	}
+
+	.logo img {
+		width: 70px;
+	}
+	.logo-nav-container {
+		gap: 10px;
+		width: 100%;
+	}
+
+	.nav-links li {
+		color: rgba(147, 148, 161, 1);
+	}
+
+	.nav-links li .arrow {
+		display: none;
+		/* position: absolute;
+		left: 50%;
+		bottom: 0;
+		margin-left: 0;
+		margin-top: 5px;
+		font-size: 8px; */
+	}
+	.get-purchase {
+		font-size: 12px;
+	}
+	.get-purchase-container {
+		display: none;
+	}
+}
+
+/* For screen widths between 768px and 1024px */
+@media (min-width: 768px) and (max-width: 1023px) {
+	.logo img {
+		width: 80px;
+	}
+	.nav-links {
+		gap: 20px;
+	}
+	.nav-links li {
+		font-size: 12px;
+	}
+}

@@ -1,0 +1,136 @@
+/*  */
+.hero,
+.icon-box {
+	padding: 60px 20px; /* Responsively allocate space */
+}
+.left-side {
+	padding: 20px 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: left;
+	align-items: flex-start;
+}
+.right-side {
+	display: flex;
+}
+.side-btn {
+	width: 30px;
+	height: 180px;
+	border-radius: 20px;
+	background-color: #2f57ef;
+	display: flex;
+	justify-content: center;
+	margin: auto 0;
+}
+.side-btn h2 {
+	color: #ffffff;
+	font-size: 15px;
+	writing-mode: vertical-rl;
+}
+
+.first-box {
+	display: flex;
+	gap: 50px;
+	width: 100%;
+}
+
+.star::after {
+	content: "\2605"; /* Unicode for solid star (★) */
+	font-size: 24px; /* Adjust size */
+	color: orange; /* Set star color */
+	margin-left: 2px;
+}
+.enamato-text h2,
+.star-text h2 {
+	font-size: clamp(15px, 2vw, 20px); /* Min 16px, prefers 2vw, max 24px */
+	color: black;
+	margin-bottom: 20px;
+}
+.gradient-text {
+	background: linear-gradient(to right, #e7bef3, #013adf);
+	-webkit-background-clip: text;
+	background-clip: text;
+	color: transparent;
+	display: inline-block;
+}
+
+.sec-box h1 {
+	font-size: clamp(40px, 5vw, 70px); /* Min 40px, prefers 5vw, max 70px */
+	line-height: clamp(50px, 6vw, 90px);
+	color: black;
+	font-weight: 800;
+	display: flex;
+	flex-wrap: wrap;
+}
+.third-box p {
+	font-size: 20px;
+	font-weight: 400;
+}
+.bold-underline {
+	font-weight: bold;
+	text-decoration: underline;
+	text-underline-offset: 8px;
+}
+.icon-box-content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 10px;
+	padding: 20px 20px;
+	background-image: linear-gradient(to right, #013adf, #e7bef3);
+}
+.card {
+	width: 270px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	text-align: left;
+	justify-content: center;
+	background-color: transparent;
+	border: none;
+}
+.card h1 {
+	color: #ffffff;
+	font-size: 20px;
+	line-height: 25px;
+	margin-bottom: 20px;
+}
+
+.card p {
+	display: flex;
+	font-size: 12px;
+	font-weight: 500;
+	line-height: 20px;
+	flex-wrap: wrap;
+	color: #faf8fe;
+}
+.card:hover {
+	transform: scale(1.05);
+}
+/* RESPONSIVENESS */
+
+/* Below 768px */
+@media (max-width: 767px) {
+	.hero {
+		padding: 20px 0;
+	}
+	.card {
+		padding: 20px 0;
+		width: 100%;
+	}
+}
+/* For screen widths between 768px and 1024px */
+@media (min-width: 768px) and (max-width: 1023px) {
+	.hero {
+		padding: 20px 0;
+	}
+}
+/* For screen widths between 1024px and 1440px */
+@media (min-width: 1024px) and (max-width: 1350px) {
+}
+@media (min-width: 1440px) {
+	.card {
+		width: 320px;
+	}
+}
