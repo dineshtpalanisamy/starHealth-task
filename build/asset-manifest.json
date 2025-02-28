@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/starHealth-task/static/css/main.c0909cca.css",
-    "main.js": "/starHealth-task/static/js/main.610ca9a1.js",
-    "index.html": "/starHealth-task/index.html",
-    "main.c0909cca.css.map": "/starHealth-task/static/css/main.c0909cca.css.map",
-    "main.610ca9a1.js.map": "/starHealth-task/static/js/main.610ca9a1.js.map"
+    "main.css": "https://dineshtpalanisamy.github.io/starHealth-task/static/css/main.c0909cca.css",
+    "main.js": "https://dineshtpalanisamy.github.io/starHealth-task/static/js/main.610ca9a1.js",
+    "index.html": "https://dineshtpalanisamy.github.io/starHealth-task/index.html",
+    "main.c0909cca.css.map": "https://dineshtpalanisamy.github.io/starHealth-task/static/css/main.c0909cca.css.map",
+    "main.610ca9a1.js.map": "https://dineshtpalanisamy.github.io/starHealth-task/static/js/main.610ca9a1.js.map"
   },
   "entrypoints": [
-    "static/css/main.c0909cca.css",
-    "static/js/main.610ca9a1.js"
+    "https://dineshtpalanisamy.github.io/static/css/main.c0909cca.css",
+    "https://dineshtpalanisamy.github.io/static/js/main.610ca9a1.js"
   ]
 }
