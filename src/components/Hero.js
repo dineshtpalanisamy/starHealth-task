@@ -1,5 +1,10 @@
 import React from "react";
 import "../style/Hero.css";
+import bannerImg from "../assets/banner.png";
+import icon1 from "../assets/icons-01.png";
+import icon2 from "../assets/icons-02.png";
+import icon3 from "../assets/icons-03.png";
+import icon4 from "../assets/icons-04.png";
 import "bootstrap/dist/css/bootstrap.min.css"; // Include Bootstrap for styling
 
 const Hero = () => {
@@ -49,7 +54,7 @@ const Hero = () => {
             <div className="col-sm-12 col-md-12 col-lg-6 right-side">
               <div>
                 <img
-                  src="https://dineshtpalanisamy.github.io/starHealth-task/assets/banner.png"
+                  src={bannerImg}
                   alt="Banner Background"
                   loading="lazy"
                   className="img-fluid"
@@ -69,7 +74,7 @@ const Hero = () => {
             <div className="col-sm-12 col-lg-4 card">
               <figure>
                 <img
-                  src="https://dineshtpalanisamy.github.io/starHealth-task/assets/icons-01.png"
+                  src={icon1}
                   alt="Icon with fast performance description"
                   loading="lazy"
                   style={{
@@ -90,7 +95,7 @@ const Hero = () => {
             <div className="col-sm-12 col-lg-4 card">
               <figure>
                 <img
-                  src="https://dineshtpalanisamy.github.io/starHealth-task/assets/icons-02.png"
+                  src={icon2}
                   alt="Icon with perfect theme description"
                   loading="lazy"
                   style={{
@@ -111,7 +116,7 @@ const Hero = () => {
             <div className="col-sm-12 col-lg-4 card">
               <figure>
                 <img
-                  src="https://dineshtpalanisamy.github.io/starHealth-task/assets/icons-03.png"
+                  src={icon3}
                   alt="Icon with fast and friendly description"
                   loading="lazy"
                   style={{
@@ -132,7 +137,7 @@ const Hero = () => {
             <div className="col-sm-12 col-lg-4 card">
               <figure>
                 <img
-                  src="https://dineshtpalanisamy.github.io/starHealth-task/assets/icons-04.png"
+                  src={icon4}
                   alt="Icon with fast easy to use description"
                   loading="lazy"
                   style={{

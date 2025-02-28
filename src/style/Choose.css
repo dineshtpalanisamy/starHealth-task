@@ -30,19 +30,19 @@
   border-radius: 10px;
 }
 .card-one {
-  background: url("https://dineshtpalanisamy.github.io/starHealth-task/assets/sun-shadow-right.png")
-      no-repeat center center / cover,
+  background: url("../assets/sun-shadow-right.png") no-repeat center center /
+      cover,
     #ff672d;
 }
 
 .card-two {
-  background: url("https://dineshtpalanisamy.github.io/starHealth-task/assets/sun-shadow-right-3.png")
-      no-repeat center center / cover,
+  background: url("../assets/sun-shadow-right-3.png") no-repeat center center /
+      cover,
     #29c98b;
 }
 .card-three {
-  background: url("https://dineshtpalanisamy.github.io/starHealth-task/assets/sun-shadow-right-2.png")
-      no-repeat center center / cover,
+  background: url("../assets/sun-shadow-right-2.png") no-repeat center center /
+      cover,
     #43a3ff;
 }
 .card-one h1,

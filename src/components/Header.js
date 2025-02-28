@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useLocation } from "react-router-dom";
 import { Link } from "react-router-dom";
+import studyLogo from "../assets/logo.png";
 
 import "bootstrap/dist/css/bootstrap.min.css"; // Include Bootstrap for styling
 
@@ -35,11 +36,7 @@ const Header = () => {
         <nav className="logo-nav-container">
           <div className="logo">
             <Link to="/" aria-label="Go to Home Page">
-              <img
-                src="https://dineshtpalanisamy.github.io/starHealth-task/assets/logo.png"
-                alt="Study Logo"
-                loading="lazy"
-              />
+              <img src={studyLogo} alt="Study Logo" loading="lazy" />
             </Link>
           </div>
         </nav>

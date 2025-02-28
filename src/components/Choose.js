@@ -1,6 +1,9 @@
 import "../style/Choose.css";
 import "bootstrap/dist/css/bootstrap.min.css"; // Include Bootstrap for styling
-
+import icon1 from "../assets/01.png";
+import icon2 from "../assets/02.png";
+import icon3 from "../assets/03.png";
+import arrowDown from "../assets/arrow-down.png";
 const Choose = () => {
   return (
     <>
@@ -22,7 +25,7 @@ const Choose = () => {
               </div>
               <div>
                 <img
-                  src="https://dineshtpalanisamy.github.io/starHealth-task/assets/01.png"
+                  src={icon1}
                   alt="Create your own websites"
                   loading="lazy"
                   style={{
@@ -52,7 +55,7 @@ const Choose = () => {
               </div>
               <div>
                 <img
-                  src="https://dineshtpalanisamy.github.io/starHealth-task/assets/02.png"
+                  src={icon2}
                   alt="Create your own websites"
                   loading="lazy"
                   style={{
@@ -82,7 +85,7 @@ const Choose = () => {
               </div>
               <div>
                 <img
-                  src="https://dineshtpalanisamy.github.io/starHealth-task/assets/03.png"
+                  src={icon3}
                   alt="Create your own websites"
                   loading="lazy"
                   style={{
@@ -124,7 +127,7 @@ const Choose = () => {
             </p>
             <div className="arrow">
               <img
-                src="https://dineshtpalanisamy.github.io/starHealth-task/assets/arrow-down.png"
+                src={arrowDown}
                 alt="Arrow symbol"
                 style={{ width: "50px", height: "50px", objectFit: "contain" }}
               ></img>

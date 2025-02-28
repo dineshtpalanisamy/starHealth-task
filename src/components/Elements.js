@@ -1,6 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css"; // Include Bootstrap for styling
 import "../style/Elements.css";
+import lastIcon from "../assets/last.jpg";
 
 const Elements = () => {
   const features = [
@@ -57,7 +58,7 @@ const Elements = () => {
           <div className="row">
             <div className="col-sm-12 col-lg-6">
               <img
-                src="https://dineshtpalanisamy.github.io/starHealth-task/assets/last.jpg"
+                src={lastIcon}
                 alt="Last Section"
                 loading="lazy"
                 style={{ width: "100%", height: "auto", objectFit: "contain" }}

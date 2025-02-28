@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/starHealth-task/static/css/main.3f764518.css",
+    "main.js": "/starHealth-task/static/js/main.db0b8b66.js",
+    "static/media/banner.png": "/starHealth-task/static/media/banner.2669d51c47fee871d5c1.png",
+    "static/media/last.jpg": "/starHealth-task/static/media/last.0ba9058804dbaf9cd4e4.jpg",
+    "static/media/icons-03.png": "/starHealth-task/static/media/icons-03.bd1cc2b3343086f47577.png",
+    "static/media/icons-04.png": "/starHealth-task/static/media/icons-04.76236deec385635878d7.png",
+    "static/media/01.png": "/starHealth-task/static/media/01.f91f2d66dca4b91e8ab0.png",
+    "static/media/icons-01.png": "/starHealth-task/static/media/icons-01.43eb493e86541c350bbf.png",
+    "static/media/02.png": "/starHealth-task/static/media/02.9dfd6200ab0347926125.png",
+    "static/media/arrow-down.png": "/starHealth-task/static/media/arrow-down.65b45d1f6a49d4cc9fab.png",
+    "static/media/03.png": "/starHealth-task/static/media/03.b70461d16c06aa7e1573.png",
+    "static/media/logo.png": "/starHealth-task/static/media/logo.00cee17d39cf704b1cca.png",
+    "index.html": "/starHealth-task/index.html",
+    "main.3f764518.css.map": "/starHealth-task/static/css/main.3f764518.css.map",
+    "main.db0b8b66.js.map": "/starHealth-task/static/js/main.db0b8b66.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3f764518.css",
+    "static/js/main.db0b8b66.js"
+  ]
+}
