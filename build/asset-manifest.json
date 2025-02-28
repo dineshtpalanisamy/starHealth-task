@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/starHealth-task/static/css/main.c0909cca.css",
-    "main.js": "/starHealth-task/static/js/main.610ca9a1.js",
+    "main.css": "/starHealth-task/static/css/main.c73dc576.css",
+    "main.js": "/starHealth-task/static/js/main.1c2d231a.js",
     "index.html": "/starHealth-task/index.html",
-    "main.c0909cca.css.map": "/starHealth-task/static/css/main.c0909cca.css.map",
-    "main.610ca9a1.js.map": "/starHealth-task/static/js/main.610ca9a1.js.map"
+    "main.c73dc576.css.map": "/starHealth-task/static/css/main.c73dc576.css.map",
+    "main.1c2d231a.js.map": "/starHealth-task/static/js/main.1c2d231a.js.map"
   },
   "entrypoints": [
-    "static/css/main.c0909cca.css",
-    "static/js/main.610ca9a1.js"
+    "static/css/main.c73dc576.css",
+    "static/js/main.1c2d231a.js"
   ]
 }
