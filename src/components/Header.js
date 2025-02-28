@@ -35,7 +35,11 @@ const Header = () => {
         <nav className="logo-nav-container">
           <div className="logo">
             <Link to="/" aria-label="Go to Home Page">
-              <img src="/assets/logo.png" alt="Study Logo" loading="lazy" />
+              <img
+                src="https://dineshtpalanisamy.github.io/starHealth-task/assets/logo.png"
+                alt="Study Logo"
+                loading="lazy"
+              />
             </Link>
           </div>
         </nav>
@@ -46,7 +50,7 @@ const Header = () => {
         >
           <img
             className="img-fluid"
-            src="/assets/hamburger.png"
+            src="https://dineshtpalanisamy.github.io/starHealth-task/assets/hamburger.png"
             alt="Navigation Menu"
             width="22"
             height="22"

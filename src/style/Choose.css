@@ -1,220 +1,220 @@
 .choose {
-	padding: 40px 20px;
+  padding: 40px 20px;
 }
 .all {
-	width: 160px;
-	border-radius: 40px;
-	padding: 5px 5px;
-	background-color: #faf8fe;
-	color: #e7bef3;
-	font-size: 12px;
-	font-weight: 600;
-	line-height: 20px;
-	margin: auto;
-	margin-bottom: 20px;
+  width: 160px;
+  border-radius: 40px;
+  padding: 5px 5px;
+  background-color: #faf8fe;
+  color: #e7bef3;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 20px;
+  margin: auto;
+  margin-bottom: 20px;
 }
 .why {
-	font-weight: 800;
-	margin-bottom: 80px;
+  font-weight: 800;
+  margin-bottom: 80px;
 }
 .card-one,
 .card-two,
 .card-three {
-	display: flex;
-	flex-direction: column;
-	justify-content: start;
-	align-items: center;
-	padding: 40px 20px;
-	row-gap: 20px;
-	color: #ffffff;
-	border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  padding: 40px 20px;
+  row-gap: 20px;
+  color: #ffffff;
+  border-radius: 10px;
 }
 .card-one {
-	background: url("/public/assets/sun-shadow-right.png") no-repeat center center /
-			cover,
-		#ff672d;
+  background: url("https://dineshtpalanisamy.github.io/starHealth-task/assets/sun-shadow-right.png")
+      no-repeat center center / cover,
+    #ff672d;
 }
 
 .card-two {
-	background: url("/public/assets/sun-shadow-right-3.png") no-repeat center
-			center / cover,
-		#29c98b;
+  background: url("https://dineshtpalanisamy.github.io/starHealth-task/assets/sun-shadow-right-3.png")
+      no-repeat center center / cover,
+    #29c98b;
 }
 .card-three {
-	background: url("/public/assets/sun-shadow-right-2.png") no-repeat center
-			center / cover,
-		#43a3ff;
+  background: url("https://dineshtpalanisamy.github.io/starHealth-task/assets/sun-shadow-right-2.png")
+      no-repeat center center / cover,
+    #43a3ff;
 }
 .card-one h1,
 .card-two h1,
 .card-three h1 {
-	font-size: 20px;
-	line-height: 20px;
-	margin-bottom: 30px;
+  font-size: 20px;
+  line-height: 20px;
+  margin-bottom: 30px;
 }
 .card-one h2,
 .card-two h2,
 .card-three h2 {
-	font-size: 30px;
-	line-height: 40px;
+  font-size: 30px;
+  line-height: 40px;
 }
 .list-item {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;
-	color: #ffffff;
-	gap: 20px;
-	padding-inline: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  gap: 20px;
+  padding-inline: 20px;
 }
 .list-tag {
-	padding: 5px 20px;
-	border-radius: 5px;
-	background-color: transparent;
-	border: 1px solid white;
-	font-size: 12px;
-	font-weight: 500;
-	line-height: 15px;
+  padding: 5px 20px;
+  border-radius: 5px;
+  background-color: transparent;
+  border: 1px solid white;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 15px;
 }
 .list-tag:hover {
-	transform: scale(1.05);
+  transform: scale(1.05);
 }
 .gradient {
-	height: 700px;
-	padding-inline: 40px;
-	background: linear-gradient(
-		to right,
-		rgba(231, 190, 243, 0.5),
-		rgba(215, 222, 232, 0.5)
-	);
+  height: 700px;
+  padding-inline: 40px;
+  background: linear-gradient(
+    to right,
+    rgba(231, 190, 243, 0.5),
+    rgba(215, 222, 232, 0.5)
+  );
 }
 .num {
-	position: relative;
+  position: relative;
 }
 .number {
-	font-size: 300px;
-	font-weight: bolder;
-	color: #00000014;
+  font-size: 300px;
+  font-weight: bolder;
+  color: #00000014;
 }
 .desc {
-	width: 100%;
-	position: absolute;
-	top: 35%;
-	z-index: 1;
+  width: 100%;
+  position: absolute;
+  top: 35%;
+  z-index: 1;
 }
 .desc h1 {
-	color: #013adf;
-	font-size: 80px;
-	font-weight: bolder;
-	line-height: 80px;
-	margin-bottom: 50px;
+  color: #013adf;
+  font-size: 80px;
+  font-weight: bolder;
+  line-height: 80px;
+  margin-bottom: 50px;
 }
 .lite-txt {
-	width: 500px;
-	margin: auto;
-	padding: 20px 0;
+  width: 500px;
+  margin: auto;
+  padding: 20px 0;
 }
 .desc h2 {
-	font-size: 20px;
-	line-height: 20px;
-	color: #b5b5b5cc;
-	padding: 10px 0;
+  font-size: 20px;
+  line-height: 20px;
+  color: #b5b5b5cc;
+  padding: 10px 0;
 }
 .desc p {
-	width: 500px;
-	margin: auto;
-	padding: 10px 0;
+  width: 500px;
+  margin: auto;
+  padding: 10px 0;
 
-	font-size: 12px;
+  font-size: 12px;
 }
 .arrow {
-	position: relative;
-	bottom: 0;
+  position: relative;
+  bottom: 0;
 }
 .round-box {
-	padding: 20px 20px;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;
-	gap: 20px;
+  padding: 20px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
 .round-box-1,
 .round-box-2,
 .round-box-3 {
-	font-size: 12px;
-	font-weight: 500;
-	color: white;
-	color: #707070;
-	padding: 10px 20px;
-	width: auto;
-	border-radius: 20px;
-	background-color: #ffffff;
+  font-size: 12px;
+  font-weight: 500;
+  color: white;
+  color: #707070;
+  padding: 10px 20px;
+  width: auto;
+  border-radius: 20px;
+  background-color: #ffffff;
 }
 .round-box-1 {
-	background-color: #013adf;
-	color: #ffffff;
+  background-color: #013adf;
+  color: #ffffff;
 }
 .form-type {
-	padding: 0 20px;
+  padding: 0 20px;
 }
 .form-sheet {
-	padding: 20px 20px;
-	width: 100%;
-	border-radius: 10px;
-	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  padding: 20px 20px;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
 }
 .user-content {
-	display: flex;
-	flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 .user-dts {
-	text-align: start;
-	font-size: 15px;
-	color: black;
-	font-weight: 500;
-	padding: 10px 0;
+  text-align: start;
+  font-size: 15px;
+  color: black;
+  font-weight: 500;
+  padding: 10px 0;
 }
 .user-input {
-	border-radius: 8px;
-	padding: 10px 10px;
-	border: 1px solid #00000014;
-	margin-bottom: 10px;
+  border-radius: 8px;
+  padding: 10px 10px;
+  border: 1px solid #00000014;
+  margin-bottom: 10px;
 }
 .gender-container {
-	display: flex;
-	gap: 15px;
+  display: flex;
+  gap: 15px;
 }
 
 .gender-box {
-	border: 1px solid #00000014;
-	padding: 10px 20px;
-	border-radius: 5px;
-	display: flex;
-	align-items: center;
-	gap: 8px;
+  border: 1px solid #00000014;
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
 .gender-box input {
-	cursor: pointer;
+  cursor: pointer;
 }
 
 /* RESPONSIVENESS */
 
 /* Below 768px */
 @media (max-width: 767px) {
-	.number {
-		font-size: 180px;
-	}
-	.gradient {
-		height: 890px;
-	}
-	.lite-txt {
-		padding-inline: 10px;
-		width: auto;
-	}
-	.desc p {
-		padding-inline: 5px;
-		width: auto;
-	}
+  .number {
+    font-size: 180px;
+  }
+  .gradient {
+    height: 890px;
+  }
+  .lite-txt {
+    padding-inline: 10px;
+    width: auto;
+  }
+  .desc p {
+    padding-inline: 5px;
+    width: auto;
+  }
 }
