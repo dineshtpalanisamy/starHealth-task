@@ -43,16 +43,16 @@ const Choose = () => {
             </div>
             <div className="col-sm-12 col-lg-4 card-two">
               <div>
-                <h1>FOR ONLINE COURSE</h1>
+                <h1>FOR UNIVERSITY OR SCHOOL EDUCATION</h1>
                 <h2>
-                  Create Your Online
+                  Create Your Education
                   <br />
-                  Courses Website.
+                  Website.
                 </h2>
               </div>
               <div>
                 <img
-                  src="/https://dineshtpalanisamy.github.io/starHealth-task/assets/02.png"
+                  src="https://dineshtpalanisamy.github.io/starHealth-task/assets/02.png"
                   alt="Create your own websites"
                   loading="lazy"
                   style={{
@@ -63,21 +63,21 @@ const Choose = () => {
                 ></img>
               </div>
               <div className="list-item">
-                <div className="list-tag">Individual instructor</div>
-                <div className="list-tag">Multiple instructor</div>
-                <div className="list-tag">Market place</div>
-                <div className="list-tag">Single course</div>
-                <div className="list-tag">Like Udemy</div>
+                <div className="list-tag">Higher Education</div>
+                <div className="list-tag">Universitys</div>
+                <div className="list-tag">Kindergardern </div>
+                <div className="list-tag">Pre School</div>
+                <div className="list-tag">High School</div>
                 <div className="list-tag">& More</div>
               </div>
             </div>
             <div className="col card-three">
               <div>
-                <h1>FOR ONLINE COURSE</h1>
+                <h1>FOR PROFESSIONAL COACHING</h1>
                 <h2>
-                  Create Your Online
+                  Create Your Coaching
                   <br />
-                  Courses Website.
+                  and Training Websites
                 </h2>
               </div>
               <div>
@@ -93,12 +93,12 @@ const Choose = () => {
                 ></img>
               </div>
               <div className="list-item">
-                <div className="list-tag">Individual instructor</div>
-                <div className="list-tag">Multiple instructor</div>
-                <div className="list-tag">Market place</div>
-                <div className="list-tag">Single course</div>
+                <div className="list-tag">Language Academy</div>
+                <div className="list-tag">Gym Coaching</div>
+                <div className="list-tag">Career Training</div>
+                <div className="list-tag">Life Coaching</div>
                 <div className="list-tag">Like Udemy</div>
-                <div className="list-tag">& More</div>
+                {/* <div className="list-tag">& More</div> */}
               </div>
             </div>
           </div>
@@ -115,12 +115,12 @@ const Choose = () => {
               <b>Best-in-class designs to get started</b>
             </h2>
             <h2 className="lite-txt">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem
-              ipsum dolor sit amet, consectetur adipiscing elit
+              Use any demo or Theme for education website. You can mix and match
+              all the demos and templates.
             </h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem
-              ipsum dolor sit amet.
+              Create a complete education website with a lots of demo page and
+              250+ section blocks to create a unique site.
             </p>
             <div className="arrow">
               <img

@@ -5,18 +5,23 @@ import NotFound from "./components/NotFound";
 import UnderConstruction from "./components/UnderConstruction";
 
 function App() {
-	return (
-		<div className="App">
-			<Router>
-				<Routes>
-					<Route path="/" element={<Home />} />
-					<Route path="*" element={<NotFound />} />
-					<Route path="/underConstruction" element={<UnderConstruction />} />
-					<Route path="/courses" element={<UnderConstruction />} />
-				</Routes>
-			</Router>
-		</div>
-	);
+  return (
+    <div className="App">
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="*" element={<NotFound />} />
+
+          <Route path="/pre-builtHome" element={<UnderConstruction />} />
+          <Route path="/courses" element={<UnderConstruction />} />
+          <Route path="/pages" element={<UnderConstruction />} />
+          <Route path="/elements" element={<UnderConstruction />} />
+          <Route path="/blog" element={<UnderConstruction />} />
+          <Route path="/help" element={<UnderConstruction />} />
+        </Routes>
+      </Router>
+    </div>
+  );
 }
 
 export default App;

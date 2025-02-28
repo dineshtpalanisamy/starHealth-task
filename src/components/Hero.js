@@ -82,8 +82,8 @@ const Hero = () => {
               <figcaption>
                 <h1>Fast Performance</h1>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem
-                  ipsum dolor sit amet.
+                  Optimized for a smaller build size, faster dev compilation and
+                  dozens of other improvements
                 </p>
               </figcaption>
             </div>
@@ -103,8 +103,8 @@ const Hero = () => {
               <figcaption>
                 <h1>Perfect Responsive</h1>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem
-                  ipsum dolor sit amet.
+                  Our Theme is full perfect for all device. You can visit our
+                  theme all device easily.
                 </p>
               </figcaption>
             </div>
@@ -124,8 +124,8 @@ const Hero = () => {
               <figcaption>
                 <h1>Fast and Friendly Support</h1>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem
-                  ipsum dolor sit amet.
+                  We are provide 24 hours support for all clients. You can
+                  purchase without hesitation.
                 </p>
               </figcaption>
             </div>
@@ -145,8 +145,8 @@ const Hero = () => {
               <figcaption>
                 <h1>Easy to Use</h1>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem
-                  ipsum dolor sit amet.
+                  Create your own custom Theme or section by copying, pasting,
+                  and assembling.
                 </p>
               </figcaption>
             </div>
